@@ -1,4 +1,6 @@
-# ML-Travel-Insurance
+# **Travel Insurance Claim Analytics**
+
+### **Created By: Joel Bernard Leonardo**
 ## **Business Problem Understanding**
 
 **Context**: <br>
