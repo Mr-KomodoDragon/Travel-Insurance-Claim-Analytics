@@ -27,8 +27,7 @@ Kemudian saya akan membangun model klasifikasi yang akan membantu perusahaan unt
 
 **Metric Evaluation**
 
-![Metric_eva.png](attachment:Metric_eva.png)
-Metric_eva.png
+![Metric_eva.png](https://github.com/Mr-KomodoDragon/ML-Travel-Insurance/blob/main/Metric_eva.png?raw=true)
 
 Type 1 error : False Positive,<br>
 Model memprediksi Cutomer akan klaim tapi kenyataan tidak, maka perusahaan kehilangan calon customer mereka. Karena mereka tidak ditawarkan.
