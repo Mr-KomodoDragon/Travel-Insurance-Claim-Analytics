@@ -20,10 +20,10 @@ Perushaan ingin  meningkatkan efisiensi proses klaim asuransi perjalanan dengan 
 
 
 **Goals** :<br>
-Maka berdasarkan permasalahan tersebut, perusahaan ingin memiliki kemampuan untuk memprediksi kemungkinan pemegang polis akan mengajukan klaim atau tidak, sehingga dapat memfokuskan kepada calon pemegang polis yang akan klaim asuransi tersebut. Sehingga tidak akan merugikan finasial perushaan Travel Insurance, karena Perushaan akan mengetahui calon pemegang polis tersebut dipastikan tidak akan klaim.
+Maka berdasarkan permasalahan tersebut, perusahaan ingin memiliki kemampuan untuk memprediksi kemungkinan calon pemegang polis akan mengajukan klaim atau tidak. Sehingga tidak akan merugikan finasial perushaan Travel Insurance, karena Perushaan akan mengetahui calon pemegang polis tersebut dipastikan tidak akan klaim.
 
 **Analytic Approach** :<br>
-Jadi yang akan saya lakukan adalah menganalisis data untuk menemukan pola yang membedakan orang pemegang polis akan klaim atau tidak.
+Jadi yang akan saya lakukan adalah menganalisis data untuk menemukan pola yang membedakan orang pemegang polis akan klaim atau tidak (klasifikasi).
 
 Kemudian saya akan membangun model klasifikasi yang akan membantu perusahaan untuk dapat memprediksi probabilitas seorang akan klaim asurasi tersebut atau tidak.
 
