@@ -16,7 +16,7 @@ Asuransi perjalanan adalah jenis asuransi yang memberikan perlindungan selama ki
 
 
 **Problem Statement** :<br>
-Perushaan ingin  meningkatkan efisiensi proses klaim asuransi perjalanan dengan memanfaatkan data historis pemegang polis untuk mengidentifikasi pemegang polis yang berpotensi mengajukan klaim dan membutuhkan perlindungan, sehingga dapat mengoptimalkan sumber daya perusahaan. Perusahaan menawarkan asuransinya lewat pihak ketiga kepada setiap orang akan tetapi hal itu membuat rugi perusahaan, karena perusahaan tidak mengetahui apakah orang yang ditawarkannya akan klaim atau tidak.
+Perushaan ingin  meningkatkan efisiensi proses klaim asuransi perjalanan dengan memanfaatkan data historis pemegang polis untuk mengidentifikasi pemegang polis yang berpotensi mengajukan klaim dan membutuhkan perlindungan, sehingga dapat mengoptimalkan sumber daya perusahaan. Sebelumnya Perusahaan menawarkan asuransinya lewat pihak ketiga kepada setiap orang tanpa memilih dan hal itu membuat rugi perusahaan, karena perusahaan tidak mengetahui apakah orang yang ditawarkannya akan klaim atau tidak.
 
 
 **Goals** :<br>
