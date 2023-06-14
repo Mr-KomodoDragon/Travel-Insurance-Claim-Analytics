@@ -1,4 +1,5 @@
 # **Travel Insurance Claim Analytics**
+#### Classification Case
 
 ### **Created By: Joel Bernard Leonardo**
 ## **Business Problem Understanding**
