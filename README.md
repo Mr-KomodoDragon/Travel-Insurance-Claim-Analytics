@@ -1,45 +1,42 @@
 # **Travel Insurance Claim Analytics**
 #### Classification Case
-
 ### **Created By: Joel Bernard Leonardo**
 ## **Business Problem Understanding**
 
 **Context**: <br>
-Asuransi perjalanan adalah jenis asuransi yang memberikan perlindungan selama kita melakukan perjalanan baik di dalam negeri maupun ke luar negeri. Beberapa negara bahkan mensyaratkan para pelancong untuk memiliki asuransi perjalanan, contohnya di negara-negara Eropa dan Amerika. Jumlah premi yang harus dibayarkan tergantung pada cakupan yang diinginkan, durasi perjalanan, dan tujuan perjalanan. Sebuah perusahaan yang bergerak di bidang asuransi perjalanan ingin mengetahui calon pemegang polis yang akan mengajukan klaim asuransi untuk mendapatkan perlindungan. Data pemegang polis di perusahaan asuransi adalah data historis yang mencakup tujuan perjalanan, produk asuransi, dan lain-lain
+Travel insurance is a type of insurance that provides coverage while traveling, whether domestically or internationally. Some countries even require travelers to have travel insurance, such as in European and American countries. The premium amount to be paid depends on the desired coverage, travel duration, and destination. An insurance company specializing in travel insurance wants to identify potential policyholders who are likely to file insurance claims to provide them with adequate protection. The insurance company has historical data of policyholders, including travel destinations, insurance products, and more.
 
-(Note: Perusahaan Travel Asuransi ini menawarkan Asuransinya lewat pihak ketiga)
-
+(Note: This Travel Insurance company offers its insurance through a third party)
 
 **Target**:<br>
-0 : Tidak mengajukan klaim asuransi
+0: No insurance claim filed
 
-1 : mengajukan klaim asuransi
-
+1: Insurance claim filed
 
 **Problem Statement** :<br>
-Perushaan ingin  meningkatkan efisiensi proses klaim asuransi perjalanan dengan memanfaatkan data historis pemegang polis untuk mengidentifikasi pemegang polis yang berpotensi mengajukan klaim dan membutuhkan perlindungan, sehingga dapat mengoptimalkan sumber daya perusahaan. Sebelumnya Perusahaan menawarkan asuransinya lewat pihak ketiga kepada setiap orang tanpa memilih dan hal itu membuat rugi perusahaan, karena perusahaan tidak mengetahui apakah orang yang ditawarkannya akan klaim atau tidak.
-
+The company aims to improve the efficiency of the travel insurance claim process by utilizing historical data of policyholders to identify potential policyholders who are likely to file claims and require protection. This will allow the company to optimize its resources. Previously, the company offered its insurance through a third party to anyone without selecting them, resulting in financial losses for the company as they did not know whether the individuals they offered insurance to would file claims or not.
 
 **Goals** :<br>
-Maka berdasarkan permasalahan tersebut, perusahaan ingin memiliki kemampuan untuk memprediksi kemungkinan calon pemegang polis akan mengajukan klaim atau tidak. Sehingga tidak akan merugikan finasial perushaan Travel Insurance, karena Perushaan akan mengetahui calon pemegang polis tersebut dipastikan tidak akan klaim.
+Based on the problem stated, the company wants to have the ability to predict the likelihood of a potential policyholder filing an insurance claim. This will prevent financial losses for the Travel Insurance company since they will know in advance whether the potential policyholders are likely to file claims or not.
 
 **Analytic Approach** :<br>
-Jadi yang akan saya lakukan adalah menganalisis data untuk menemukan pola yang membedakan orang pemegang polis akan klaim atau tidak (klasifikasi).
+My approach will involve analyzing the data to discover patterns that differentiate policyholders who file claims from those who do not (classification).
 
-Kemudian saya akan membangun model klasifikasi yang akan membantu perusahaan untuk dapat memprediksi probabilitas seorang akan klaim asurasi tersebut atau tidak.
+Then, I will build a classification model that will assist the company in predicting the probability of a policyholder filing an insurance claim or not.
 
 **Metric Evaluation**
 
 ![Metric_eva.png](https://github.com/Mr-KomodoDragon/ML-Travel-Insurance/blob/main/Metric_eva.png?raw=true)
 
-Type 1 error : False Positive,<br>
-Model memprediksi Cutomer akan klaim tapi kenyataan tidak, maka perusahaan kehilangan calon customer mereka. Karena mereka tidak ditawarkan.
+Type 1 error: False Positive<br>
+The model predicts that a customer will file a claim when in reality they don't, resulting in the company losing potential customers as they are not offered insurance.
 
-Type 2 error : False Negative,<br>
-Model memprediksi Customer akan tidak klaim tapi kenyataan iya, maka perusahaan rugi karena harus memberi uang klaim kepada customer tersebut.
+Type 2 error: False Negative<br>
+The model predicts that a customer will not file a claim when in reality they do, resulting in financial losses for the company as they have to pay out the claim.
 
-Berdasarkan Permintaan Perusahaan, saya akan membuat model yang dapat mengidetifikasi customer yang memegang polis yang akan Claim. Dan dari konsekuensi bahwa keduanya sangat penting maka dari itu saya akan fokus terhadap False Negative lebih dari False Postive, tapi tetap memperhatikan keduanya. Maka Metric utama yang saya gunakan adalah **f2**.
+Based on the company's request, I will create a model that can identify policyholders who are likely to file claims. Considering the consequences of both types of errors, I will focus on minimizing False Negatives more than False Positives, but still consider both. Therefore, the main metric I will use is **f2**.
 
 Note:
-- f2 : recall (FN) lebih penting dari pada precision (FP), tapi tetap memperhatikan keduanya.
+
+f2: Recall (FN) is more important than precision (FP), but both are still considered.
 
